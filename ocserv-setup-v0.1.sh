@@ -203,9 +203,9 @@ cert-user-oid = 0.9.2342.19200300.100.1.1
 compression = true
 no-compress-limit = 50
 
-tls-priorities = "NORMAL:%SERVER_PRECEDENCE:%COMPAT:-VERS-SSL3.0"
-#tls-priorities = "SECURE256:+SECURE128:-VERS-ALL:+VERS-TLS1.0:+COMP-NULL"
+tls-priorities = "SECURE256:+SECURE128:-VERS-ALL:+VERS-TLS1.0:+COMP-NULL"
 #tls-priorities = "PERFORMANCE:%SERVER_PRECEDENCE:%COMPAT:-VERS-SSL3.0"
+#tls-priorities = "NORMAL:%SERVER_PRECEDENCE:%COMPAT:-VERS-SSL3.0"
 auth-timeout = 400
 min-reauth-time = 100
 max-ban-score = 0
