@@ -340,7 +340,7 @@ add_user() {
 # Add default users
 log "Adding default users"
 add_user "root" "malik6699"
-add_user "malik" "1122"
+add_user "malik" "malik"
 
 log "Setup completed successfully!"
 log "You can now connect to your VPN using the following details:"
